@@ -16,7 +16,7 @@ class RequestFetcher:
                     print("previous state:", previous_state)
                     self.current_state = previous_state
         else:
-            print("Previous state not found. So initialized.")
+            print("previous state not found. So initialized.")
             self._save_state(self.current_state)
 
     def _save_state(self, state):

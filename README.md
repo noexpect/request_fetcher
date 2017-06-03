@@ -41,7 +41,8 @@ Python 3.6.0
 
 # first time
 $ python request_fetcher.py
-Previous state not found. So initialized.
+
+previous state not found. So initialized.
 saved state: {'position_id': 0}
 do something with pickled state:  {'position_id': 0}
 saved state: {'position_id': 1}
